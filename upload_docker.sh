@@ -5,13 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=app
+dockerpath=sunshine2050/operationalize-a-machine-learning-microservice-api
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login -u sunshine2050
-docker tag app sunshine2050/operationalize-a-machine-learning-microservice-api:app
+docker tag api sunshine2050/operationalize-a-machine-learning-microservice-api:app
 # Step 3:
 # Push image to a docker repository
 docker push sunshine2050/operationalize-a-machine-learning-microservice-api:app
