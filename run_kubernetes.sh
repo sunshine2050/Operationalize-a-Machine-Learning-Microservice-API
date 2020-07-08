@@ -15,4 +15,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward mlmicroserviceapi 8000:80
+kubectl port-forward microservice1 8000:80
