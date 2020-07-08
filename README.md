@@ -1,5 +1,5 @@
-<include a CircleCI status badge, here>
-
+# Example:
+[![CircleCI](https://circleci.com/gh/circleci/operationalize-a-Machine-Learning-Microservice-API-.svg?style=svg)](https://circleci.com/gh/circleci/operationalize-a-Machine-Learning-Microservice-API-)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -46,3 +46,4 @@ Operationalize  machine learning microservice using [kubernetes](https://kuberne
 * .circleci/config.yaml: defined steps for ci pipeline
 * make_prediction.sh: script to sent a post request to our app to get a prediction
 * kubernetes_out.txt, docker_out.txt: Console output of running our app with kubernetes and docker respectively
+* requirements.txt: list of python requirements to run our app
