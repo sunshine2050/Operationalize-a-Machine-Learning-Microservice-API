@@ -8,7 +8,7 @@ You are given a pre-trained, `sklearn` model that has been trained to predict ho
 
 ### Project Tasks
 
-Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
+Operationalize  machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
 * Test your project code using linting
 * Complete a Dockerfile to containerize this application
 * Deploy your containerized application using Docker and make a prediction
@@ -17,11 +17,6 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
-
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
----
 
 ## Setup the Environment
 
@@ -40,3 +35,12 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Files
+* MakeFile: defined steps for installing and linting the project
+* DockerFile: defined steps to build docker image file
+* run_docker.sh: script to run DockerFile and other steps to run our flask app
+* upload_docker.sh: helper script to upload docker image to our docker hub to be used later by run kubernetes script
+* app.py: our python application file
+* run_kubernetes.sh: run kubernetes to pull the docker image and run it through kubernetes pod
+* .circleci/config.yaml: defined steps for ci pipeline
