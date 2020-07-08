@@ -1,5 +1,4 @@
-# Example:
-[![CircleCI](https://circleci.com/gh/circleci/operationalize-a-Machine-Learning-Microservice-API-.svg?style=svg)](https://app.circleci.com/pipelines/github/sunshine2050/operationalize-a-Machine-Learning-Microservice-API-)
+[![CircleCI](https://circleci.com/gh/sunshine2050/operationalize-a-Machine-Learning-Microservice-API-.svg?style=svg)](https://circleci.com/gh/sunshine2050/operationalize-a-Machine-Learning-Microservice-API-)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
