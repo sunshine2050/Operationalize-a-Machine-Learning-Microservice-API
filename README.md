@@ -44,3 +44,5 @@ Operationalize  machine learning microservice using [kubernetes](https://kuberne
 * app.py: our python application file
 * run_kubernetes.sh: run kubernetes to pull the docker image and run it through kubernetes pod
 * .circleci/config.yaml: defined steps for ci pipeline
+* make_prediction.sh: script to sent a post request to our app to get a prediction
+* kubernetes_out.txt, docker_out.txt: Console output of running our app with kubernetes and docker respectively
