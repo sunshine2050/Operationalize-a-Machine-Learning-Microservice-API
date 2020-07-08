@@ -4,10 +4,10 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=sunshine2050/operationalize-a-machine-learning-microservice-api
+dockerpath=sunshine2050/operationalize-a-machine-learning-microservice-api:app
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run microservice1 --image=sunshine2050/operationalize-a-machine-learning-microservice-api --port=80
+kubectl run microservice1 --image=sunshine2050/operationalize-a-machine-learning-microservice-api:app --port=80
 
 # Step 3:
 # List kubernetes pods
